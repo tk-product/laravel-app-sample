@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * 音声入力を処理するコントローラークラス。
+ *
+ * このクラスは、音声入力に関連するリクエストを処理するために使用されます。
+ * Laravelの基本的なコントローラークラスを拡張しています。
+ *
+ * @package App\Http\Controllers
+ */
+
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Log;

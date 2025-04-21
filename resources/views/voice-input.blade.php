@@ -5,7 +5,7 @@
 @section('content')
     <h1 class="title has-text-centered">🎤 音声入力フォーム</h1>
 
-    <form action="/voice-input" method="POST">
+    <form action="/search" method="POST">
         @csrf
 
         <div class="field">
